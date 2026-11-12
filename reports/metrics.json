@@ -1,0 +1,25 @@
+{
+  "n_features": 8,
+  "train_rows": 3600,
+  "val_rows": 1200,
+  "test_rows": 1200,
+  "main": {
+    "name": "main",
+    "hidden": 32,
+    "learning_rate": 0.003,
+    "epochs": 80,
+    "best_epoch": 78,
+    "best_val_mae": 2.7382555135091144,
+    "best_val_loss": 16.99914524078369,
+    "final_train_loss": 11.844319665696887,
+    "final_val_loss": 17.97149611155192
+  },
+  "network_val_mae": 2.7382555135091144,
+  "network_test_mae": 2.6099319712320965,
+  "network_val_loss": 16.99914524078369,
+  "network_test_loss": 14.824384498596192,
+  "mean_baseline_val_mae": 10.153897247314454,
+  "mean_baseline_test_mae": 9.64913937886556,
+  "linear_baseline_val_mae": 9.31691837310791,
+  "linear_baseline_test_mae": 8.572918891906738
+}
