@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+src = [".", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# bikes_data.py is given and must stay unchanged, including its long
+# docstring line, so the line-length rule is turned off for that file only.
+"bikes_data.py" = ["E501"]
